@@ -1,7 +1,7 @@
 Uni-Search
 ========================
 
-Search All
+Search all about university
 
 
 License
