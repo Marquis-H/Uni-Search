@@ -24,8 +24,12 @@ h3 {
     height: auto;
 }
 
+.pure-form input[type=text] {
+    width: 100%;
+}
+
 .pure-form select {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #layout {
@@ -223,5 +227,18 @@ h3 {
         position: fixed;
         top: 0;
         bottom: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .pure-form input[type=text] {
+        margin-bottom: 0;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px) {
+    .pure-form input[type=text] {
+        width: auto;
     }
 }
